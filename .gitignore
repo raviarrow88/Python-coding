@@ -1,8 +1,9 @@
+.idea/
 venv
 *.pyc
 staticfiles
 .env
-.idea/
+
 
 # User-specific stuff:
 .idea/**/workspace.xml
