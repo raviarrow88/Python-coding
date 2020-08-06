@@ -124,3 +124,24 @@ def replace2elements(l):
 
 replace2elements([1,2,3,4,6,7])
 
+#10 Write a Python program to remove duplicates from a list of lists
+# Sample list : [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]]
+# New List : [[10, 20], [30, 56, 25], [33], [40]]
+
+
+def remove_dups(l):
+  result = []
+  for i in l:
+    if isinstance(i,list):
+      if i not in result:
+        result.append(i)
+  print result
+
+
+remove_dups([[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]])
+
+
+#11 66. Write a Python program to find the list in a list of lists whose sum of elements is the highest.
+# Sample lists: [1,2,3], [4,5,6], [10,11,12], [7,8,9]
+# Expected Output: [10, 11, 12]
+
